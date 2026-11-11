@@ -66,23 +66,23 @@
   // from a base + filename: scripts/localise-images.sh rewrites literal URLs,
   // and anything assembled at runtime would slip past it and stay on Webflow.
   var morePhotos = [
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc1b0ee91ffe6fe5726_meange%20bit.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc122ce747fadd2e61b_menage%20barn%202.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc122ce740a84d2e626_horses%20eye%20mask.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc2ca7be6fc6476f9f6_horses%20fields.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc1439fa64116f165b7_menage%20barn.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc04361af8b00ccc2c6_barn.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc1b0d76c8d663afd08_horse%20box.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc1f01cad42757c6a88_Fields2.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc0350a38ccd63f18da_Horse%20in%20stable.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dbfb7ad65f2051f7664_Tack%20Room.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc224ba583ccb298a90_Cass%20with%20horses.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc2dac694170bc59fd7_Martin%20with%20horses.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc0b0d76c0ee43afd03_Horse%20vertical.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dbfa0f2841ddbd38f00_cass%20martin.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc2f4c914885576b7c2_Fields.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc04361af3ccbccc2c5_Martin%20tea.jpg',
-    'https://cdn.prod.website-files.com/62a0a825ae0cda6968caf141/63027dc179dc34fb948ec733_fields%20high.jpg'
+    'images/meange-bit.jpg',
+    'images/menage-barn-2.jpg',
+    'images/horses-eye-mask.jpg',
+    'images/horses-fields.jpg',
+    'images/menage-barn.jpg',
+    'images/barn.jpg',
+    'images/horse-box.jpg',
+    'images/fields2.jpg',
+    'images/horse-in-stable.jpg',
+    'images/tack-room.jpg',
+    'images/cass-with-horses.jpg',
+    'images/martin-with-horses.jpg',
+    'images/horse-vertical.jpg',
+    'images/cass-martin.jpg',
+    'images/fields.jpg',
+    'images/martin-tea.jpg',
+    'images/fields-high.jpg'
   ];
 
   var box = document.getElementById('lightbox');
